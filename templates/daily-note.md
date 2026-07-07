@@ -1,3 +1,4 @@
+<!-- Language rule: Work sections in English, personal reflections in German -->
 ---
 created: YYYY-MM-DD
 tags:

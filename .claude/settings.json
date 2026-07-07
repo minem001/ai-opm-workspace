@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "rnd-ai-knowledgebase": {
+      "source": {
+        "source": "github",
+        "repo": "Dynatrace-Internal/rnd-ai-knowledgebase"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "dt-atlassian-pii@rnd-ai-knowledgebase": true
+  }
+}

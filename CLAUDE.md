@@ -2,36 +2,32 @@
 
 ## Identity & Context
 
-<!-- PERSONALIZE: Update these fields with your information. Run /personalize to do this interactively. -->
-
-**Owner**: [YOUR NAME], [YOUR ROLE] at [YOUR COMPANY]
-**Focus areas**: [YOUR PRODUCT AREAS - e.g., "Core Platform, API strategy, customer onboarding"]
+**Owner**: Mike Nemeth, Head of Product / Director at Dynatrace
+**Focus areas**: Integrations, Extensions, Application Development, Developer Tools
 **Vault purpose**: Personal PM workspace - private, never referenced externally
 
-**Language**: English
-<!-- If you work in multiple languages, specify rules here. Example:
-- English: Work content, meetings, decisions, communications
-- [Other language]: Personal reflections, emotional content
-- NEVER mix languages within a note
--->
+**Language**: English (primary) and German (personal)
+- English: Work content, meetings, decisions, communications, tasks
+- German: Personal reflections, personal notes, emotional content
+- NEVER mix languages within a single note
 
 ---
 
 ## Company Context
 
-<!-- PERSONALIZE: Replace with your company and product context. This helps Claude understand your domain. -->
+**What Dynatrace does**: Dynatrace is an AI-powered observability and security platform that helps enterprise organizations monitor, analyze, and optimize their software and cloud environments automatically.
 
-**What [YOUR COMPANY] does**: [Brief description of what your company does - 1-2 sentences]
-
-**Target customers**: [Who your customers are - e.g., "Enterprise SaaS companies", "SMB retailers"]
+**Target customers**: Enterprise companies with complex cloud-native and hybrid environments
 
 **Core products**:
-- **[Product 1]**: [Brief description]
-- **[Product 2]**: [Brief description]
+- **Extensions & Integrations**: Extend Dynatrace capabilities through integrations with third-party tools and custom-built extensions
+- **Applications**: Build and deploy custom apps on the Dynatrace platform
+- **Developer Tools**: SDKs, APIs, and AI-assisted tools for building on and integrating with Dynatrace
 
 **Target users**:
-- **[User type 1]**: [Brief description]
-- **[User type 2]**: [Brief description]
+- **Developers**: Software engineers building on or integrating with Dynatrace
+- **Solution Architects**: Technical architects designing observability solutions
+- **Alliance Managers**: Partners and alliance stakeholders managing integrations
 
 ---
 
@@ -43,21 +39,31 @@
 You have access to MCP servers configured in your Claude Code environment:
 
 ### GitHub MCP
-<!-- Not configured. Run /personalize to set up. -->
+Configured. Use for repository context, PR tracking, and issue management.
 
-<!-- OPTIONAL MCPs - uncomment and configure if you use these:
-
-### [Domain Docs MCP]
-**Use for**: Product documentation lookup
+### Outlook Mail MCP
+**Use for**: Reading and sending work emails
 **Key operations**:
-- Understanding current product behavior
-- Referencing APIs and features
+- Drafting and sending emails to stakeholders
+- Reading and summarizing email threads
 
-### Notion MCP
-**Use for**: Personal/private notes
-**Restriction**: Personal reflection only, never in work skills
+### Outlook Calendar MCP
+**Use for**: Checking and managing calendar events
+**Key operations**:
+- Viewing upcoming meetings and schedules
+- Checking availability and scheduling
 
--->
+### Jira MCP
+**Use for**: Issue tracking, epics, and sprint management
+**Key operations**:
+- Looking up issues, epics, and sprint status
+- Linking tasks and decisions to Jira issues
+
+### SharePoint MCP
+**Use for**: Accessing company documents and wikis
+**Key operations**:
+- Looking up documentation and reference materials
+- Accessing shared company resources and templates
 
 ---
 
@@ -121,7 +127,7 @@ You have access to MCP servers configured in your Claude Code environment:
 
 **Priority levels**: P1 (critical, max 1) → P2 (high, max 2) → P3 (medium) → P4 (low) → P5 (optional)
 
-**Task fields**: id (auto), status, priority, owner (default: [YOUR NAME]), deadline, source (wikilink), type (task/goal), created date, changelog
+**Task fields**: id (auto), status, priority, owner (default: Mike Nemeth), deadline, source (wikilink), type (task/goal), created date, changelog
 
 **Dashboard** (`Dashboard/Tasks.md`): Auto-generated view of active tasks with checkboxes. Check a box in Obsidian to mark done — next task-aware skill run syncs the change.
 
@@ -150,11 +156,10 @@ You have access to MCP servers configured in your Claude Code environment:
 
 **Reference**: `Dashboard/people-profiles.md` for communication preferences and working styles of key stakeholders.
 
-<!-- PERSONALIZE: Adjust these audience types to match your organization -->
-
 **Communication tone guidance**:
-- **Leadership**: Strategic, metrics-driven, concise, aligned with company goals
-- **Customers**: Professional, benefits-focused, clear ROI, no internal jargon
+- **Engineering teams**: Technical, precise, context-rich, collaborative — lead with the problem and constraints
+- **Leadership / Executives**: Strategic, metrics-driven, concise, aligned with company goals
+- **Customers / External**: Professional, benefits-focused, clear ROI, no internal jargon
 
 **Slack markdown formatting**:
 - **Bold**: Use `*text*` (single asterisk), NOT `**text**`

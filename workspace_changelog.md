@@ -4,6 +4,34 @@ All structural changes to this workspace are logged here — new folders, new sk
 
 ---
 
+## 2026-07-07 — Added JiraToDos skill
+
+### Added
+
+- `.claude/skills/JiraToDos/SKILL.md` — New skill `/JiraToDos` that generates a Jira attention report: overdue issues, new assignments, recent field/status changes, and quick-action layer (comment, transition, save to vault). Uses `acli-pii` CLI. Modes: default (7d), extended (14d/30d), `overdue`, `new`, `changes`, `all`.
+
+---
+
+## 2026-07-07 — Workspace personalization (/personalize)
+
+### Updated
+
+- `CLAUDE.md`
+  - Identity: Mike Nemeth, Head of Product / Director at Dynatrace
+  - Focus areas: Integrations, Extensions, Application Development, Developer Tools
+  - Language rules: English for work, German for personal reflections
+  - Company context: Dynatrace description, target customers, products, and users filled in
+  - MCP servers: GitHub (configured), Outlook Mail, Outlook Calendar, Jira, SharePoint documented
+  - Communication tone: Updated for Engineering teams, Leadership/Executives, Customers/External (removed Design teams)
+  - Task fields: default owner set to Mike Nemeth
+- `templates/daily-note.md` — added language rule comment at top
+
+### Created
+
+- `Dashboard/Weekly P-Tasks.md` — initialized for week of July 7–13, 2026
+
+---
+
 ## 2026-03-14 — Remove self-care and yesterday evening from daily flow
 
 ### Updated
